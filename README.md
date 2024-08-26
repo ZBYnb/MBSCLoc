@@ -11,3 +11,6 @@ model_saved_min_downsampling_13: Contains models using the minimum downsampling 
 test_npy: This folder contains the test data and test labels.   
 mod: Includes the UTR-LM pre-trained model downloaded from HuggingFace, which is used for encoding mRNA.   
 MFL.ipynb: The code in this Jupyter Notebook can be used to load models from either model_saved_max_upsampling_9 or model_saved_min_downsampling_13 for predicting the subcellular localization sites of mRNA.   
+
+## Contact
+
