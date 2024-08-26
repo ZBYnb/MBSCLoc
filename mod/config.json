@@ -1,0 +1,70 @@
+{
+  "architectures": [
+    "UtrLmForPreTraining"
+  ],
+  "attention_dropout": 0.1,
+  "bos_token_id": 1,
+  "emb_layer_norm_before": false,
+  "eos_token_id": 2,
+  "head": {
+    "act": null,
+    "bias": true,
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "layer_norm_eps": 1e-12,
+    "num_labels": 1,
+    "output_name": null,
+    "problem_type": null,
+    "transform": null,
+    "transform_act": "gelu"
+  },
+  "hidden_act": "gelu",
+  "hidden_dropout": 0.1,
+  "hidden_size": 128,
+  "id2label": {
+    "0": "LABEL_0"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 512,
+  "label2id": {
+    "LABEL_0": 0
+  },
+  "layer_norm_eps": 1e-12,
+  "lm_head": {
+    "act": null,
+    "bias": true,
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "layer_norm_eps": 1e-12,
+    "output_name": null,
+    "transform": "nonlinear",
+    "transform_act": "gelu"
+  },
+  "mask_token_id": 4,
+  "max_position_embeddings": 1026,
+  "mfe_head": {
+    "act": null,
+    "bias": true,
+    "dropout": 0.0,
+    "hidden_size": 128,
+    "layer_norm_eps": 1e-12,
+    "num_labels": 1,
+    "output_name": null,
+    "problem_type": null,
+    "transform": null,
+    "transform_act": "gelu"
+  },
+  "model_type": "utrlm",
+  "null_token_id": 5,
+  "num_attention_heads": 16,
+  "num_hidden_layers": 6,
+  "pad_token_id": 0,
+  "position_embedding_type": "rotary",
+  "ss_head": null,
+  "token_dropout": false,
+  "torch_dtype": "float32",
+  "transformers_version": "4.41.2",
+  "unk_token_id": 3,
+  "use_cache": true,
+  "vocab_size": 26
+}

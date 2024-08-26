@@ -1,0 +1,4 @@
+{
+  "tokenizer_class": "RnaTokenizer",
+  "clean_up_tokenization_spaces": true
+}
