@@ -17,4 +17,5 @@ mod: Includes the UTR-LM pre-trained model downloaded from HuggingFace, which is
 MFL.ipynb: The code in this Jupyter Notebook can be used to load models from either model_saved_max_upsampling_9 or model_saved_min_downsampling_13 for predicting the subcellular localization sites of mRNA.   
 
 ## Contact  
-6233111070@stu.jiangnan.edu.cn
+zhangbangyi@stu.jiangnan.edu.cn
+zby_9826@163.com
