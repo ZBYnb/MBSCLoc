@@ -2,7 +2,7 @@
 Code of paper: MBSCLoc: Multi-label subcellular localization prediction based on cluster balanced subspace partitioning method and multi-class contrastive representation learning
 
 ## File Descriptions：
-feature_ex_gpu.py: This script enables GPU-accelerated encoding of features. It is recommended to use a GPU with at least 16GB of VRAM for acceleration. In this study, a GPU with 24GB of VRAM (such as the NVIDIA 4090) was used.  
+feature_ex_gpu.py: This script enables GPU-accelerated encoding of features. It is recommended to use a GPU with at least 16GB of VRAM for acceleration. In this study, a GPU with 24GB of VRAM (such as the NVIDIA 4090) was used. Due to the presence of some randomness in the parameters of the large model, please ensure to set a random seed. The random seed for this study is set to 42.  
 
 label_cl.py: This file handles label preprocessing. It loads the corresponding labels for the data and saves them as .npy files.   
 
